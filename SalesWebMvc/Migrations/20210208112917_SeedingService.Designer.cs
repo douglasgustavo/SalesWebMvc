@@ -4,13 +4,13 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using SalesWebMvc.Data;
+using SalesWebMvc.Models;
 
 namespace SalesWebMvc.Migrations
 {
     [DbContext(typeof(SalesWebMvcContext))]
-    [Migration("20210207152015_OtherEntities")]
-    partial class OtherEntities
+    [Migration("20210208112917_SeedingService")]
+    partial class SeedingService
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
