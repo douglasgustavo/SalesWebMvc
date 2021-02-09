@@ -28,10 +28,9 @@
             </tr>
         </tbody>
     </table>
-
-    <form asp-action="Delete">
+    <form asp-action="Delete" class="align-content-center">
         <input type="hidden" asp-for="Id" />
-        <button asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-info">Edit</button>
+        <a type="button" asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-info">Edit</a>
         <a asp-action="Index">Back to List</a>
     </form>
 </div>
